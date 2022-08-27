@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container {
+            height: 344px;
+            width: 100%;
+            border: 2px solid black;
+            display: flex;
+
+            flex property for falx container */
+            /* flex-direction: row;
+        flex-direction: column;
+        flex-direction: row-reverse; */
+            /* flex-direction: column-reverse; */
+            /* flex-wrap: nowrap;
+        /* flex-flow: row-reverse wrap; */
+        justify-content: center;
+        justify-content: space-between;
+        justify-content: space-evenly;
+        justify-content: space-around;
+
+
+        align-items: center;
+        align-items: flex-end;
+        align-items: flex-start;
+        align-items: stretch;
+    }
+    .items{
+        width: 200px;
+        height: 200px;
+        background-color: tomato;
+        border: 2px solid black;
+        margin: 10px;
+        padding: 11px;
+    }
+    </style>
+</head>
+
+<body>
+    <h1>This is flex box</h1>
+    <div class="container">
+        <div class="items" id="item-1">first box</div>
+        <div class="items" id="item-2">second box</div>
+        <div class="items" id="item-3">third box</div>
+        <div class="items" id="item-4">forth box</div>
+        <div class="items" id="item-5">fifth box</div>
+        <div class="items" id="item-6">sixth box</div>
+    </div>
+</body>
+
+</html>

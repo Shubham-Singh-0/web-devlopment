@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham Fitness</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto+Mono:wght@100&display=swap"
+    rel="stylesheet">
+
+<style>
+    /* css reset  */
+    body {
+        margin: 0px;
+        color: white;
+        padding: 0px;
+        font-family: 'Baloo Bhaina 2', cursive;
+
+        background: url('https://images.squarespace-cdn.com/content/v1/595b2260b6ac5064741a1726/1538896075517-H01FBB96MD00EG0U3Z4S/gym-workout-hd-wallpapers.jpg');
+
+    }
+
+    .left {
+        display: inline-block;
+
+        position: absolute;
+        left: 3px;
+        top: -7px;
+
+
+    }
+
+    .center {
+        display: block;
+        width: 52%;
+        margin: 11px auto;
+
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 13px;
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 18px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: lightsteelblue;
+    }
+
+    .left img {
+        width: 100px;
+        filter: invert(100%)
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        font-family: 'Baloo Bhaina 2', cursive;
+    }
+
+    .btn:hover {
+        background-color: rgb(180, 175, 175);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 50px 27px;
+        padding: 1px;
+        width: 29%;
+        border-radius: 28px;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 225px;
+        padding: 0px;
+        margin: 5px auto;
+        border: 2px solid black;
+        border-radius: 12px;
+        font-size: 12px;
+        font-family: 'Baloo Bhaina 2', cursive;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+        font-family: 'Baloo Bhaina 2', cursive;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left for logo  -->
+        <div class="left">
+            <img src="https://png.pngtree.com/png-vector/20191023/ourlarge/pngtree-physical-fitness-sport-gym-logo-bodybuilder-with-big-muscles-posing-isolated-png-image_1857715.jpg"
+                alt="">
+
+
+
+            </ul>
+        </div>
+        <!-- center for  navbar  -->
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">About Us</a> </li>
+                <li><a href="#">Fitness Calculate</a> </li>
+                <li><a href="#">Contect us</a> </li>
+            </ul>
+        </div>
+        <!-- right for contect  -->
+        <div class="right">
+            <button class="btn">call us now</button><button class="btn">E mail</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1> Join THe Best Gym OF Chandigarh Now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your E- mail id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Phone Number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

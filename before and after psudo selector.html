@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>before and after sudo selector</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+       
+        }
+        header::before{
+            background: url('https://cdn-aghof.nitrocdn.com/LtqqLGkDxnkWeLkvFwGydxSOIAYoFtJz/assets/static/optimized/rev-f2f3b7d/wp-content/uploads/2020/02/vlad-tchompalov-1084931-unsplash-scaled-1707x.jpg') no-repeat center center/cover ;
+            content: "";
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity:0.3 ;
+
+
+        }
+        .nevigation{
+            display: flex;
+
+
+
+        }
+        li{
+            list-style: none;
+            padding: 34px 45px ;
+        }
+       section{
+           margin: 2px 23px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            hight: 34px;
+            justify-content: center;
+        }
+        p{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="nevigation">
+                <li class="iteams">home </li>
+                <li class="iteams">about</li>
+                <li class="iteams">services</li>
+                <li class="iteams">contect</li>
+            </ul>
+        </nav>
+      
+    </header>
+    <section>
+        <h3>welcom to my world</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus repellendus dolore necessitatibus impedit quae a rerum autem hic alias rem! Iusto assumenda ex, non provident, rerum laudantium architecto odit, facilis atque reiciendis eveniet facere.</p>
+    </section> 
+</body>
+</html>

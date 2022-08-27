@@ -1,0 +1,171 @@
+/* css Reset  */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* CSS Varibles */
+:root {
+    --navebar-height: 50px;
+}
+
+/* Navigation bar */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    font-family: 'Abril Fatface', cursive;
+
+
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 55%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+
+
+}
+
+/* /* Navigation bar logo and image  */
+#logo {
+
+    margin: 10px 34px;
+
+}
+
+#logo img {
+    margin: 3px -42px;
+    height: 45px;
+    width: 104px;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    display: flex;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: black;
+
+
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+/* home section  */
+#home{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 3px 317px;
+    height: 421px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{
+    content: "";
+    background:url('../pppp.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 62%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.85;
+
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Inconsolata', monospace;
+
+
+}
+/* services center  */
+
+#services{
+    margin: 34px;
+    display: flex;
+
+}
+#services .box{
+    border: 2px solid black;
+    margin: 2px 2px;
+    padding: 2px 2px;
+    border-radius: 26px;
+    background-color: bisque;
+
+}
+#services .box img{
+    height: 156px;
+    margin: auto;
+    display: block;
+}
+#services{}
+#services{}
+#services{}
+#services{}
+/* client section  */
+#client
+
+/* utility class  */
+.h-parimary{
+    font-size: 3.8rem;padding: 12px;
+    
+    }
+    
+    .h-primary-center {
+    
+        font-size: 77px;
+    
+        text-align: center;
+
+}
+.h-secondary{
+    font-size: 2.8rem;
+    padding: 12px;
+
+}
+.h-secondary-center{
+    text-align: center;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cenetr{
+    text-align: center;
+}
